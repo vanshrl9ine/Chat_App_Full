@@ -90,7 +90,7 @@ const SignUp = () => {
 					</Link>
 
 					<div>
-						<button type='submit' className='btn btn-block btn-sm mt-2 border border-slate-700'>
+						<button type='submit' className='btn btn-block btn-sm mt-2 border border-slate-700' disabled={loading}>
 							Sign Up
 						</button>
 					</div>
